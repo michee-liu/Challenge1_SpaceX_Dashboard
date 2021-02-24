@@ -1,0 +1,40 @@
+/*Omgeving*/
+.voertuigomgeving{
+	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #E5E2ED;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+.omgeving{
+	color: #000;
+    background-color: #f1f1f1;
+    width: 300px;
+    padding:0px;
+}
+
+.load{
+	color: #fff;
+    background-color: #4CAF50;
+}
+.center{
+	text-align: center;
+}
+
+.sideleft{
+	float: left;
+	padding-right: 50px;
+	margin: 10px;
+}
+
+.sideright{
+	float: left;
+}
+
+h3{
+	padding-left: 10px;
+}

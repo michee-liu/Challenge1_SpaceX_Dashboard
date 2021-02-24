@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>SpaceX Dashboard</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="main.css" rel="stylesheet" />
+		<link type="text/css" href="grid.css" rel="stylesheet" />
+		<link type="text/css" href="omgeving.css" rel="stylesheet" />
+		<script src="Javascript.js"></script>
+	</head>
+
+	<body>
+	  	<header class="grid-item header">
+	  	<div>
+	  		<h1>SpaceX</h1>
+	  		<img src="foto/spaceship.png" width="50" height="50" class="logo" />
+	  	</div>
+	    	<input type="text" placeholder="Search..">
+	    </header>
+
+
+	     <main class="grid-item main">
+		  	<div class="left">
+				<nav id="menu" class="inactive">
+	    			<ul>
+	    				<li><a href="index.html">VOERTUIG INFORMATIE</a></li>
+	    				<li><a href="omgeving.html">VOERTUIG OMGEVING</a></li>
+	    				<li><a href="voorraad.html">VOORRADEN</a></li>
+	    				<li><a href="#tools">TOOLS</a></li>
+	    				<li><a href="#overig">OVERIG</a></li>
+	    			</ul>
+	  	  		</nav>
+	  	 	</div>
+		</main>
+
+		<section class="grid-item sec">
+			<div class="voertuigomgeving">
+				<h3>OMGEVING</h3>
+
+				<div class="sideleft">
+					<img src="foto/toy.jpg" width="120" height="150" alt="photo"/>
+				</div>
+
+				<div class="sideright">
+				<p>Zwaartekracht</p>
+				<div class="omgeving">
+  					<div id="myBar" class="load center" style="width:20%">20%</div>
+				</div>
+				<br>
+
+				<p>Afstand afgelegd over de tijd</p>
+				<div class="omgeving">
+  					<div id="myBar2" class="load center" style="width:60%">60%</div>
+				</div>
+				<br>
+
+				<p>Atmosfeer</p>
+				<div class="omgeving">
+  					<div id="myBar3" class="load center" style="width:48%">48%</div>
+				</div>
+				<br>
+
+				<button class="button" onclick="move()">Checken</button> 
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

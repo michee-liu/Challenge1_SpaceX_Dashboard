@@ -1,0 +1,139 @@
+body{
+	font-family: chalkboard;
+}
+
+/*Header CSS*/
+header{
+ 	background-color: #9497D6;
+ 	padding: 5px;
+ 	border: 0px;
+ 	margin: 1px;
+ 	color: white;
+ 	font-size: 15px;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	flex-flow: row;
+ 	border-radius: 10px;
+}
+
+.logo{
+	padding-top: 13px;
+	padding-left: 3px;
+}
+h1{
+	float: left;	
+}
+
+input{
+	border: 0px;
+	border-radius: 10px;
+}
+
+/*Navigation Bar CSS*/
+.left{
+	padding: 5px;
+	background-color: #9497D6;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+ul{
+	padding-left: 0px;
+}
+
+li{
+	display: inline;
+	margin: 3px;
+	padding: 5px;
+}
+
+nav ul li:hover {
+  background-color: #8C78C1;
+  border-radius: 3px;
+}
+
+nav > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Pagina Inhoud*/
+.right{
+	float: left;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #E5E2ED;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+.infoafbeelding{
+	padding-top: 10px;
+	padding-left: 40px;
+	margin-top: 5px;
+	width: 200px;
+	height: 100px;
+}
+
+/*Voertuig Informatie PROGRESS BAR*/
+.progress{
+  position: relative;
+  margin: 4px;
+  float:left;
+  text-align: center;
+  padding: 20px;
+}
+.barOverflow{ 
+  position: relative;
+  overflow: hidden; 
+  width: 90px; height: 45px; 
+  margin-bottom: -14px; 
+}
+.bar{
+  position: absolute;
+  top: 0; left: 0;
+  width: 90px; 
+  height: 90px; 
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 8px solid #eee;     
+  border-left-color: #0bf;
+  border-left-color: #0bf;
+  
+}
+
+@keyframes load{ 
+    0% { 
+        width: 0%; 
+    } 
+  
+    100% { 
+         width: 100%; 
+    } 
+}
+
+/*footer{
+	margin-top: 10px;
+	background-color: #9497D6;
+	color: white;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
