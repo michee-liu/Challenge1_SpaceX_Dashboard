@@ -27,3 +27,29 @@ body{
 }
 
 
+@media screen and (min-width: 1280px) {
+body{
+  display: grid;
+  grid-template-columns: 1fr;
+
+  grid-template-areas: 
+        "title title"
+        "menu  menu"
+        "main  sec"
+        "foot  foot "; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

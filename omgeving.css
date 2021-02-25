@@ -38,3 +38,24 @@
 h3{
 	padding-left: 10px;
 }
+
+/*Ipad Schermgroote*/
+@media screen and (min-width: 767px) {
+.voertuigomgeving{
+	float: left;
+	padding-left: 105px;
+	padding-right: 105px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	background-color: #E5E2ED;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+.toy{
+	width: 170px;
+	height: 220px;
+}
+
+}
+
+

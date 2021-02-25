@@ -120,8 +120,68 @@ nav > ul > li > a {
 	color: white;
 }*/
 
+/*Ipad Schermgroote*/
+@media screen and (min-width: 768px) {
+li{
+	display: inline;
+	margin: 3px;
+	padding: 14px;
+}
+.right{
+	float: left;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #E5E2ED;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+.infoafbeelding{
+	padding-top: 10px;
+	padding-left: 90px;
+	margin-top: 5px;
+	width: 350px;
+	height: 250px;
+}
+}
 
+/*Desktop Schermgroote*/
+@media screen and (min-width: 1280px) {
+.left{
+	float: left;
+	padding: 10px;
+	background-color: #9497D6;
+	border-radius: 10px;
+	margin-top: 5px;
+}
 
+ul{
+	padding-left: 0px;
+}
+
+li{
+	list-style-type: none;
+	padding: 30px;
+}
+
+.right{
+	float: right;
+	padding-left: 158px;
+	padding-right: 158px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #E5E2ED;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+.infoafbeelding{
+	padding-left: 80px;
+	margin-top: 5px;
+	width: 330px;
+	height: 195px;
+}
 
 
 
