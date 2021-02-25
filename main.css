@@ -104,21 +104,13 @@ nav > ul > li > a {
   
 }
 
-@keyframes load{ 
-    0% { 
-        width: 0%; 
-    } 
-  
-    100% { 
-         width: 100%; 
-    } 
-}
-
-/*footer{
-	margin-top: 10px;
+footer{
+	margin-top: 5px;
 	background-color: #9497D6;
 	color: white;
-}*/
+	border-radius: 10px;
+	text-align: center;
+}
 
 /*Ipad Schermgroote*/
 @media screen and (min-width: 768px) {
